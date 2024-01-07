@@ -29,7 +29,7 @@ def get_text_messages(message):
     def callback_worker(call):
         if call.data == "yes":
             bot.send_message(call.message.chat.id, 'Отлично! Я отправлю твой ответ разработчику.');
-            bot.send_message(1944402724, 'Пользователя устраивает расписание');
+            bot.send_message(1944402724, 'Пользователя устраивают функции');
         elif call.data == "no":
             ...
             bot.send_message(call.message.chat.id, 'Напиши команду /report')
